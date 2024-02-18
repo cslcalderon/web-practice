@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="formStyles.css" />
+  </head>
+  <body>
+    <img src="longhorn.png" id="logo-longhorn" />
+
+    <h1 class="centered-text">University of Austin Tour Feedback Form</h1>
+
+    <p class="centered-text" id="intro-text">
+      We really loved seeing you on campus! We would love to hear about your
+      experience and any feedback you have. Can't wait to see you at your new
+      home this coming semester future longhorn. Hook'Em!
+    </p>
+
+    <div class="contentContainer">
+      <img src="towerDay.png" id="tower-pic" />
+
+      <div class="formContainer">
+        <form method="POST">
+          <table>
+            <tr>
+              <td><label>Full Name:</label></td>
+              <td><input name="name" type="text" size="30" /></td>
+            </tr>
+            <tr>
+              <td><label>Street Address:</label></td>
+              <td><input name="address" type="text" size="30" /></td>
+            </tr>
+            <tr>
+              <td><label>Email Address:</label></td>
+              <td><input name="email" type="text" size="30" /></td>
+            </tr>
+            <tr>
+              <td>Things you liked about UT Campus:</td>
+              <td>
+                <label
+                  >Students<input
+                    name="attraction[]"
+                    type="checkbox"
+                    value="students"
+                /></label>
+                <label
+                  >Location<input
+                    name="attraction[]"
+                    type="checkbox"
+                    value="location"
+                /></label>
+                <label
+                  >Campus<input
+                    name="attraction[]"
+                    type="checkbox"
+                    value="campus"
+                /></label>
+                <label
+                  >Courses Offered<input
+                    name="attraction[]"
+                    type="checkbox"
+                    value="courses"
+                /></label>
+                <label
+                  >Housing<input
+                    name="attraction[]"
+                    type="checkbox"
+                    value="housing"
+                /></label>
+                <label
+                  >Sports<input
+                    name="attraction[]"
+                    type="checkbox"
+                    value="sports"
+                /></label>
+              </td>
+            </tr>
+            <tr>
+              <td>How did you become interested in UT?</td>
+              <td>
+                <label
+                  >Family<input name="connection" type="radio" value="family"
+                /></label>
+                <label
+                  >Friends<input name="connection" type="radio" value="friends"
+                /></label>
+                <label
+                  >Television<input
+                    name="connection"
+                    type="radio"
+                    value="television"
+                /></label>
+                <label
+                  >Internet<input
+                    name="connection"
+                    type="radio"
+                    value="internet"
+                /></label>
+                <label
+                  >Other<input name="connection" type="radio" value="other"
+                /></label>
+              </td>
+            </tr>
+            <tr>
+              <td><label>What department did you visit?</label></td>
+              <td>
+                <select name="rating">
+                  <option selected="selected">
+                    College of Natural Sciences
+                  </option>
+                  <option>College of Liberal Arts</option>
+                  <option>UT Computer Science</option>
+                  <option>Hicks School of Social Work</option>
+                  <option>Jackson School of Geosciences</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Additional Comments:</label></td>
+              <td>
+                <textarea name="comments" rows="4" cols="36">
+Enter your comments here!</textarea
+                >
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="submit" value="Enter" />
+                <input type="reset" value="Clear" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

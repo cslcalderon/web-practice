@@ -1,0 +1,49 @@
+
+h1 {
+    color: white;
+    background-color: #C5602A;
+    padding: 20px;
+    width: 100%;
+}
+
+
+table, th, td {
+    border: 0;
+    padding: 8px;
+}
+
+
+.centered-text {
+    text-align: center;
+    line-height: 20px;
+}
+
+#intro-text {
+    padding: 0;
+    font-style: italic;
+}
+
+#logo-longhorn {
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+#tower-pic {
+    width: 45%;
+}
+
+.contentContainer {
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formContainer {
+    flex: 1;
+    padding: 20px;
+}
+

@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family: 'GiselmaRegular';
+    src: url('Giselma-Regular.otf') format('opentype');
+}
+
+
+header {
+    background-image: linear-gradient(#81C4FD, #9481FD );
+    height: 100px;
+    padding: 20px 0;
+    width: 100%;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'GiselmaRegular', sans-serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+
+body {
+    font-family: Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+article {
+    float: left;
+    height:500px;
+    width:50%;
+}
+
+footer {
+    
+    clear: both;
+    padding: 20px 0;
+    align-items: center;
+    height: 150px;
+    background-image: linear-gradient(#81C4FD, #9481FD );
+}
+
+.topPageContainer {
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.imageContainer {
+    text-align: center;
+    flex:1;
+    width:fit-content;
+}
+
+.imageContainer img {
+    display: inline-block;
+    width: 100%;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #9481FD;
+}
+
+.infoContainer {
+    flex: 1;
+    padding: 20px;
+}
+
+.rounded-box {
+    border-radius: 21px; 
+    padding: 22px; 
+    margin: 10px;
+}
+
+.centered-text {
+    text-align: center;
+    line-height: 20px;
+}
+
+#footer-header {
+    font-family: 'GiselmaRegular', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+#contact-info {
+    background-color: #94CDFF ;
+}
+
+#school-info {
+    background-color: #CCC4FD;
+
+}
+
+#work-experience {
+
+}
+
+#accomplishments {
+
+}
+
+
+
+
+

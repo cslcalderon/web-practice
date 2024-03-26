@@ -1,0 +1,105 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.abril-font {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.centered-text {
+    text-align: center;
+}
+
+.article-title {
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+#left-container {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid gray;
+    line-height: 130%;
+}
+
+#left-container a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+#top {
+    padding: .5em;
+    background-color: #f4c059;
+    border-bottom: 1px solid gray;
+}
+
+#top h1, #top p {
+    padding: 0;
+    margin: 0;
+}
+
+#leftnav, #rightnav {
+    float: left; 
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+    color: #333;
+}
+
+
+#rightnav {
+    width: 25%;
+    float: right;
+}
+
+#middle-content {
+    margin-left: 10px;
+    margin-right: 200px;
+    border-right: 1px solid gray;
+    padding: 1em;
+    max-width: 45em;
+}
+
+#middle-content h2 {
+    font-size: 50px;
+    line-height: 50px;
+    padding:0px;
+}
+
+#middle-content img {
+    width: 100%;
+}
+
+#footer {
+    clear: both;
+    margin: 0;
+    padding: .5em;
+    color: #333;
+    background-color: #ddd;
+    border-top: 1px solid gray;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    width: 100%; 
+    height: auto;
+}
+
+h1 {
+    line-height: 120px;
+    font-size: 60px;
+}

@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+body, h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+
+
+#imageContainer {
+    margin: 20px auto;
+    border: 2px solid black;
+    width: 650px;
+}
+
+#randomImage {
+    width: 640px;
+    height: 480px;
+}
+
+#caption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+

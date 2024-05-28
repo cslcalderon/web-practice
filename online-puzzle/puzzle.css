@@ -1,0 +1,71 @@
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 63px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh; 
+}
+
+#doneButton {
+  background-color: lightblue;
+}
+
+#time {
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+
+#backgroundGrid {
+  width: 400px; 
+  height: 300px; 
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 2px; 
+  background-size: cover; 
+}
+
+#puzzlePieces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.puzzlePiece {
+  width: 100px;
+  height: 100px;
+  cursor: grab;
+}
+
+.puzzlePieceWrapper {
+  position: relative;
+  width: 100px; 
+  height: 100px;
+  display: inline-block;
+}
+
+.numberOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  font-size: 20px; 
+  pointer-events: none; 
+  background-color: rgba(0,0,0,0.5); 
+  
+}

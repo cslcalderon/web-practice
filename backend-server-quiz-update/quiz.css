@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 40px;
+    color: #333;
+    text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #5cb85c;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tic-Tac-Toe Game</title>
+
+    <link rel="stylesheet" href="tictac.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+    />
+  </head>
+  <body>
+    <div class="center-container">
+      <h1>TIC-TAC-TOE</h1>
+      <table id="gameBoard">
+        <tr>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+        </tr>
+        <tr>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+        </tr>
+        <tr>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+          <td><button class="game-cell" onclick="makeMove(this)"></button></td>
+        </tr>
+      </table>
+      <div id="scoreBoard">
+        <p>X Wins: <span id="xWins">0</span></p>
+        <p>O Wins: <span id="oWins">0</span></p>
+      </div>
+      <button id="replayButton" onclick="resetGame()">REPLAY</button>
+    </div>
+    <script src="tictac.js"></script>
+  </body>
+</html>

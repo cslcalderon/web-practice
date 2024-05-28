@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Cheri';
+    src: url('cheri/CHERI___.TTF') format('truetype'),
+         url('Cheri/CHERL___.TTF') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #da3368; 
+    text-align: center;
+    font-size: 60px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+form {
+    background-color: #fbbdcc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: auto;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="button"], input[type="submit"] {
+    width: 100%;
+    background-color: #d73877;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #d64d8d;
+}
+
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e683ab;
+    color: white;
+}
+
+p {
+    color: #f69014;
+    background-color: #f3d6b4;
+    border-color: #f1953e;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+
+.special-title {
+    font-family: 'Cheri', cursive;
+}
